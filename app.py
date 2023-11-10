@@ -1,3 +1,3 @@
-from checkLoggedIn import Login
+from Login import Login
 
 Login()
