@@ -14,3 +14,11 @@ def Login():
     username.send_keys('401956553')
     password.send_keys('2420946596aA')
     login_button.click()
+
+def CheckHomework():
+    homeworks_link = driver.find_element(By.XPATH, "//a[@href='/Student/HomeWork']")
+    homeworks_link.location_once_scrolled_into_view
+    homeworks_link.click()
+
+Login()
+CheckHomework()
